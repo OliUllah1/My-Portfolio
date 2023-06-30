@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.primary-btn{
+    @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
+}
+.secondary-btn{
+    @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold  border bg-[#00cf5d] text-white
+}
