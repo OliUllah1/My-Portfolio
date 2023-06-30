@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutPic from '../../../assets/images/IMG_20210401_192012_590.jpg'
-import myPic from '../../../assets/images/20220612_191823.jpg'
+import myPic from '../../../assets/images/oli.png'
 
 const About = () => {
     return (
@@ -13,7 +13,7 @@ const About = () => {
             </div>
             </div>
             <div>
-                <img className='rounded-bl-full rounded-br-full' src={myPic} alt="" />
+                <img className='rounded-bl-full bg-green-500 rounded-br-full' src={myPic} alt="" />
             </div>
             <div>
             <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
