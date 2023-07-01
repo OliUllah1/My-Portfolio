@@ -14,6 +14,9 @@ html{
 .secondary-btn{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold bg-[#00cf5d] text-white
 }
+.secondary-btn-sm{
+    @apply px-5 py-3 rounded-tl-lg rounded-br-lg font-bold bg-[#00cf5d] text-white
+}
 .follow::before{
     position: absolute;
     content: '';

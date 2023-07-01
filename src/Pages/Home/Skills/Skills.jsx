@@ -19,17 +19,19 @@ import postman from '../../../assets/images/icon/postman.ico'
 import netlify from '../../../assets/images/icon/netlify.ico'
 import vercel from '../../../assets/images/icon/vercel.png'
 import chatGPT from '../../../assets/images/icon/chatgpt-icon.png'
+import Title from '../Title/Title';
 const Skills = () => {
     const [active,setActive]=useState(true)
     console.log(active)
     return (
         <div id='skills'>
-        <div  className='flex gap-5 pl-32 text-white'>
+            <Title>MY SKILLS</Title>
+        <div  className='flex justify-center lg:justify-start gap-5 lg:pl-32 text-white'>
             <button className={active ? 'secondary-btn' : 'primary-btn'} onClick={()=>{setActive(true)}}>Web</button>
             <button className={active ?  'primary-btn' : 'secondary-btn'} onClick={()=>{setActive(!true)}}>Tools</button>
         </div>
-        <div className='flex  gap-12 pb-10'>
-            <div>
+        <div className='lg:flex  gap-12 pb-10'>
+            <div className='hidden lg:block'>
             <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
                 <h4 className="[writing-mode:vertical-rl] rotate-180 bg-gray-600 p-1 rounded font-bold text-xl py-5 text-white uppercase">My Skills</h4>
                 <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
@@ -40,7 +42,7 @@ const Skills = () => {
             {/* web section start */}
             <div className={active ? '':'hidden'}>
             <div className='mt-5 grid grid-cols-1 lg:grid-cols-2 gap-6'>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={html} alt="" />
@@ -55,7 +57,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={css} alt="" />
@@ -70,7 +72,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={bootstrap} alt="" />
@@ -85,7 +87,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[80%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={tailwind} alt="" />
@@ -100,7 +102,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={javascript} alt="" />
@@ -115,7 +117,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[80%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={restAPI} alt="" />
@@ -130,7 +132,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={node} alt="" />
@@ -145,7 +147,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[20%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={express} alt="" />
@@ -160,7 +162,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={react} alt="" />
@@ -175,7 +177,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={firebase} alt="" />
@@ -190,7 +192,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={mongodb} alt="" />
@@ -205,7 +207,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[50%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={next} alt="" />
@@ -227,7 +229,7 @@ const Skills = () => {
             {/* Tools section start */}
             <div className={active ? 'hidden':''}>
             <div className='mt-5 grid grid-cols-1 lg:grid-cols-2 gap-6'>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={vscode} alt="" />
@@ -242,7 +244,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={figma} alt="" />
@@ -257,7 +259,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={git} alt="" />
@@ -272,7 +274,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[60%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={postman} alt="" />
@@ -287,7 +289,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={chrome} alt="" />
@@ -302,7 +304,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={netlify} alt="" />
@@ -317,7 +319,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[90%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={vercel} alt="" />
@@ -332,7 +334,7 @@ const Skills = () => {
                         <div className="bg-[#00cf5d] h-2 rounded-full w-[70%]"></div>
                     </div>
                 </div>
-                <div className=' bg-[#1d293a] relative rounded-lg w-[530px] h-20 text-white font-bold'>
+                <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
                     <div className='flex justify-between p-5'>
                         <div className='flex gap-3'>
                             <img className='w-8 h-8' src={chatGPT} alt="" />

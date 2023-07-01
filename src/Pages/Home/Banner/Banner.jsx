@@ -21,7 +21,7 @@ const Banner = () => {
             <p className='text-[#00cf5d] text-xl lg:text-2xl'>Hello! I am</p>
             <h1 className='text-5xl lg:text-8xl text-white font-semibold'>Oli Ullah</h1>
             <h3 className='mt-4 font-bold text-2xl text-[#00cf5d]'>Font-end Web Developer</h3>
-            <div className='mt-5 flex gap-5'>
+            <div className='mt-5 flex justify-center lg:justify-start gap-5'>
             <button className='secondary-btn-sm lg:secondary-btn'>Get Resume</button>
             <button className='primary-btn'>About Me</button>
             </div>
@@ -32,7 +32,7 @@ const Banner = () => {
             <div className='lg:hidden block mt-10'>
                 <div className='flex items-center justify-center'>
                 <p className='border-t-2 border-[#00cf5d] w-[80%]'></p>
-                <h4 className="bg-gray-600 w-full rounded font-semibold text-lg px-3 py-2 text-white uppercase">follow Me</h4>
+                <h4 className="bg-gray-600 w-full rounded font-semibold text-lg px-3 py-2 text-white text-center uppercase">follow Me</h4>
                 <p className='border-t-2 border-[#00cf5d] w-[80%]'></p>
                 </div>
 

@@ -1,17 +1,19 @@
 import React from 'react';
+import Title from '../Title/Title';
 
 
 const Portfolio = () => {
     return (
-        <div id='portfolio' className='flex gap-20'>
-            <div>
+        <div id='portfolio' className='lg:flex gap-20'>
+            <Title>Portfolio</Title>
+            <div className='hidden lg:block'>
             <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
                 <h4 className="[writing-mode:vertical-rl] rotate-180 bg-gray-600 p-1 rounded font-bold text-xl py-5 text-white uppercase">Portfolio</h4>
                 <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
             </div>
 
             <div>
-            <button className='secondary-btn mb-5'>Projects</button>
+            <button className='secondary-btn flex mx-auto lg:mx-0 mb-5'>Projects</button>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             <div className="card w-full bg-[#1d293a] shadow-xl">
                 <div className='portfolio-projects project-1 rounded-t-lg'>

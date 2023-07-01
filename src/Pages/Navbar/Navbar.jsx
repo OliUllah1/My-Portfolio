@@ -8,7 +8,7 @@ const Navbar = () => {
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>  
-            <li><a className='primary-btn uppercase w-[50%]' href="">Resume</a></li>    
+            <li><a className='primary-btn uppercase w-[50%]' href="../../../public/oliullah resume.pdf" download='oliullah-resume.pdf'>Resume</a></li>    
     </>
     return (
         <div className="navbar text-white lg:px-10 py-10">
