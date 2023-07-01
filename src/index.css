@@ -1,9 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html{
+    scroll-behavior: smooth;
+}
 .primary-btn{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
 }
 .secondary-btn{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold bg-[#00cf5d] text-white
+}
+.portfolio-projects{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    cursor: pointer;
+    transition: ease-in-out 5s;
+}
+.portfolio-projects:hover{
+    background-position: bottom;
+}
+.project-1{
+    background-image: url(../src/assets/images/projects/summer-camp.jpg);
+}
+.project-2{
+    background-image: url(../src/assets/images/projects/toy-house.jpg);
+}
+.project-3{
+    background-image: url(../src/assets/images/projects/foothub.jpg);
 }

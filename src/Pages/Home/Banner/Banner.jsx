@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import bannerLogo from '../../../assets/images/responsive.png'
 const Banner = () => {
     return (
-        <div className='flex gap-20 items-center h-[450px]'>
+        <div id='home' className='flex gap-20 items-center h-[450px]'>
             <div>
                 <div className='mb-10 text-xl ml-3 text-white'>
                     <Link to='https://github.com/OliUllah1'><FaGithub className='my-2'></FaGithub></Link>

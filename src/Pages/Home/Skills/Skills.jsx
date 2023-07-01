@@ -23,8 +23,8 @@ const Skills = () => {
     const [active,setActive]=useState(true)
     console.log(active)
     return (
-        <>
-        <div className='flex gap-5 pl-32 text-white'>
+        <div id='skills'>
+        <div  className='flex gap-5 pl-32 text-white'>
             <button className={active ? 'secondary-btn' : 'primary-btn'} onClick={()=>{setActive(true)}}>Web</button>
             <button className={active ?  'primary-btn' : 'secondary-btn'} onClick={()=>{setActive(!true)}}>Tools</button>
         </div>
@@ -355,7 +355,7 @@ const Skills = () => {
 
 
         </div>
-        </>
+        </div>
     );
 };
 
