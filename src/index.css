@@ -7,8 +7,20 @@ html{
 .primary-btn{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
 }
+.primary-btn-sm{
+    @apply px-5 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
+}
+
 .secondary-btn{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold bg-[#00cf5d] text-white
+}
+.follow::before{
+    position: absolute;
+    content: '';
+    height: 120px;
+    margin-left: 16px;
+    margin-top: -90px;
+    border-left: 3px solid #00cf5d;
 }
 .portfolio-projects{
     width: 100%;

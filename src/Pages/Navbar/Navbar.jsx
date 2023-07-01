@@ -15,7 +15,7 @@ const Navbar = () => {
   <div className="navbar-start w-full">
     
     <a className="btn btn-ghost normal-case text-3xl text-[#00cf5d]">OLI ULLAH</a>
-    <div className="dropdown dropdown-end ml-10">
+    <div className="dropdown dropdown-end ml-28">
       <label tabIndex={0} className="btn text-[#141f31] bg-[#00cf5d] btn-ghost lg:hidden">
         <FaBars className='text-xl'></FaBars>
       </label>
