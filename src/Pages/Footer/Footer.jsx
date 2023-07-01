@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <h1>footer</h1>
+            <p className='text-center py-7 bg-gray-800 text-white'>Copyright © 2023 - All right reserved by oli ullah</p>
         </div>
     );
 };

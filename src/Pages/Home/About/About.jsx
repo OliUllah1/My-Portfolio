@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutPic from '../../../assets/images/IMG_20210401_192012_590.jpg'
 import myPic from '../../../assets/images/oli.png'
 
 const About = () => {

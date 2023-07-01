@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { FaBars} from "react-icons/fa";
 const Navbar = () => {
 
@@ -8,11 +7,11 @@ const Navbar = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>   
+            <li><a href="#contact">Contact</a></li>  
             <li><a className='primary-btn uppercase w-[50%]' href="">Resume</a></li>    
     </>
     return (
-        <div className="navbar text-white px-10 py-10">
+        <div className="navbar text-white lg:px-10 py-10">
   <div className="navbar-start w-full">
     
     <a className="btn btn-ghost normal-case text-3xl text-[#00cf5d]">OLI ULLAH</a>
