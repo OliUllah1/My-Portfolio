@@ -20,10 +20,10 @@ const Banner = () => {
             <div className='text-center mt-32 lg:mt-0 lg:text-left'>
             <p className='text-[#00cf5d] text-xl lg:text-2xl'>Hello! I am</p>
             <h1 className='text-5xl lg:text-8xl text-white font-semibold'>Oli Ullah</h1>
-            <h3 className='mt-4 font-bold text-2xl text-[#00cf5d]'>Font-end Web Developer</h3>
-            <div className='mt-5 flex justify-center lg:justify-start gap-5'>
-            <button className='secondary-btn-sm lg:secondary-btn'>Get Resume</button>
-            <button className='primary-btn'>About Me</button>
+            <h3 className='mt-4 font-bold text-3xl text-[#00cf5d]'>Font-end Web Developer</h3>
+            <div className='mt-7 flex justify-center lg:justify-start gap-5'>
+            <a href="./oliullah resume.pdf" download className='secondary-btn-sm lg:secondary-btn'>Get Resume</a>
+            <a href='#about' className='primary-btn'>About Me</a>
             </div>
             </div>
             <img className='hidden lg:block' src={bannerLogo} alt="" />

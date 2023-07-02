@@ -22,7 +22,6 @@ import chatGPT from '../../../assets/images/icon/chatgpt-icon.png'
 import Title from '../Title/Title';
 const Skills = () => {
     const [active,setActive]=useState(true)
-    console.log(active)
     return (
         <div id='skills'>
             <Title>MY SKILLS</Title>

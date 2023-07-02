@@ -8,7 +8,10 @@ html{
     @apply px-10 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
 }
 .primary-btn-sm{
-    @apply px-5 py-3 rounded-tl-lg rounded-br-lg font-bold  border border-[#00cf5d] text-white
+    @apply px-5 py-3 rounded-md font-bold  border-b-2 border-[#00cf5d] text-white
+}
+.sm-btn{
+    @apply px-3 pb-1 font-bold border-b-2 rounded-md  border-[#00cf5d] text-white
 }
 
 .secondary-btn{
@@ -17,6 +20,7 @@ html{
 .secondary-btn-sm{
     @apply px-5 py-3 rounded-tl-lg rounded-br-lg font-bold bg-[#00cf5d] text-white
 }
+
 .follow::before{
     position: absolute;
     content: '';
