@@ -12,7 +12,7 @@ const Hobbies = () => {
         <div className='lg:flex gap-28 my-40'>
             <Title>LOVE TO DO</Title>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 h-[75%]'>
-                <div className='bg-[#1d293a] flex items-center justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
+                <div className='bg-[#1d293a] flex items-center justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-tl-lg rounded-br-lg'>
                     <div>
                         <LazyLoad>
                         <img className='w-28 mb-3' src={coding} alt="" />
@@ -21,7 +21,7 @@ const Hobbies = () => {
                     <p className='text-white text-center lg:text-left font-bold text-2xl'>Coding</p>
                     </div>
                 </div>
-                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
+                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-tl-lg rounded-br-lg'>
                     <div>
                         <LazyLoad>
                         <img className='w-28 mb-3' src={drawing} alt="" />
@@ -30,7 +30,7 @@ const Hobbies = () => {
                     <p className='text-white text-center lg:text-left  font-bold text-2xl'>Drawing</p>
                     </div>
                 </div>
-                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
+                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-tl-lg rounded-br-lg'>
                     <div>
                         <LazyLoad>
                         <img className='w-28 mb-3' src={swimming} alt="" />
@@ -38,7 +38,7 @@ const Hobbies = () => {
                     <p className='text-white text-center lg:text-left  font-bold text-2xl '>Swimming</p>
                     </div>
                 </div>
-                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
+                <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-tl-lg rounded-br-lg'>
                     <div>
                         <LazyLoad>
                         <img className='w-28 mb-3' src={traveling} alt="" />
