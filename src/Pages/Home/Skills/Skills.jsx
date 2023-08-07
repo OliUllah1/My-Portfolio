@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import html from '../../../assets/images/icon/html-5.ico'
 import css from '../../../assets/images/icon/css3.ico'
-import tailwind from '../../../assets/images/icon/tailwind-css.ico'
+import tailwind from '../../../assets/images/icon/tailwindcss.png'
 import bootstrap from '../../../assets/images/icon/bootstrap.ico'
 import javascript from '../../../assets/images/icon/javascript.ico'
-import restAPI from '../../../assets/images/icon/cloud-api.ico'
+import restAPI from '../../../assets/images/icon/cloud-api.png'
 import firebase from '../../../assets/images/icon/firebase.ico'
 import node from '../../../assets/images/icon/nodejs.ico'
-import express from '../../../assets/images/icon/express.ico'
+import express from '../../../assets/images/icon/express.png'
 import react from '../../../assets/images/icon/react.ico';
 import mongodb from '../../../assets/images/icon/mongodb.ico'
 import next from '../../../assets/images/icon/nextjs.png' 
@@ -87,9 +87,9 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
-                    <div className='flex justify-between p-5'>
+                    <div className='flex justify-between py-5 pl-4 pr-5'>
                         <div className='flex gap-3'>
-                            <img className='w-8 h-8' src={tailwind} alt="" />
+                            <img className='w-10 h-8 rounded' src={tailwind} alt="" />
                             <p>Tailwind CSS</p>
                         </div>
                         <div className=' bg-green-500 px-2 py-1 rounded-md'>
@@ -117,9 +117,9 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className=' bg-[#1d293a] relative rounded-lg w-full lg:w-[530px] h-20 text-white font-bold'>
-                    <div className='flex justify-between p-5'>
+                    <div className='flex justify-between py-5 pl-4 pr-5'>
                         <div className='flex gap-3'>
-                            <img className='w-8 h-8' src={restAPI} alt="" />
+                            <img className='w-10' src={restAPI} alt="" />
                             <p>Rest API</p>
                         </div>
                         <div className=' bg-green-500 px-2 py-1 rounded-md'>

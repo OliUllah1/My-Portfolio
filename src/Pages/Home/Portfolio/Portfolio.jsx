@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../Title/Title';
 import { FaGithub, FaLink } from "react-icons/fa";
+import LazyLoad from 'react-lazy-load';
 
 const Portfolio = () => {
     return (
@@ -16,9 +17,11 @@ const Portfolio = () => {
             <button className='secondary-btn flex mx-auto lg:mx-0 mb-5'>Projects</button>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             <div className="card w-full bg-[#1d293a] shadow-xl">
+                <LazyLoad>
                 <div className='portfolio-projects project-1 rounded-t-lg'>
-
                 </div>
+                </LazyLoad>
+                
                 <div className="p-5 space-y-3">
                     <h2 className=" font-bold text-2xl text-white">Articio</h2>
                     <p className='text-white'>Articio is a Educational single page web application.On this website dashboard and user different types roles are provided.Stripe payment method is used to enroll the class.</p>
@@ -38,9 +41,10 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="card w-full bg-[#1d293a] shadow-xl">
+                <LazyLoad>
                 <div className='portfolio-projects project-2 rounded-t-lg'>
-
                 </div>
+                </LazyLoad>
                 <div className="p-5 space-y-2">
                     <h2 className="font-bold text-2xl text-white">Toys House</h2>
                     <p className='text-white'>Toys House is a dynamic full-stack E-commerce website.The website offers a user-friendly interface for customers to create account, browse, upload, search, see toy details etc.</p>
@@ -61,9 +65,11 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="card w-full bg-[#1d293a] shadow-xl">
+                <LazyLoad>
                 <div className='portfolio-projects project-3 rounded-t-lg'>
-
                 </div>
+                </LazyLoad>
+                
                 <div className="p-5 space-y-3">
                 <h2 className=" font-bold text-2xl text-white">FootHub</h2>
                     <p className='text-white'>FoodHub is a Restaurant website.User can find qualified chef's and see their recipes. User can save the recipe they like and order food through this website.</p>

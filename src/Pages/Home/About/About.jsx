@@ -1,6 +1,7 @@
 import React from 'react';
 import myPic from '../../../assets/images/oli.png'
 import Title from '../Title/Title';
+import LazyLoad from 'react-lazy-load';
 
 const About = () => {
     return (
@@ -15,7 +16,10 @@ const About = () => {
             </div>
             </div>
             <div className=''>
-                <img className='rounded-bl-full w-full lg:w-[2200px] bg-green-500 rounded-br-full' src={myPic} alt="" />
+                <LazyLoad>
+                    <img className='rounded-bl-full w-full lg:w-[2200px] bg-green-500 rounded-br-full' src={myPic} alt="" />
+                </LazyLoad>
+                
             </div>
             <div className='hidden lg:block'>
             <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>

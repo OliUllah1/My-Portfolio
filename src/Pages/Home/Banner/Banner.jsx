@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import bannerLogo from '../../../assets/images/responsive.png'
 const Banner = () => {
     return (
-        <div id='home' className='lg:flex gap-20 items-center lg:h-[450px]'>
+        <div id='home' className='lg:flex gap-20  items-center lg:h-[450px]'>
             <div className='hidden lg:block'>
                 <div className='mb-24 text-xl ml-2 text-white'>
                     <Link to='https://github.com/OliUllah1'><FaGithub className='my-3'></FaGithub></Link>
@@ -14,13 +14,13 @@ const Banner = () => {
                     <Link to='https://www.instagram.com/md.oliullah_9/'><FaInstagram className='my-3'></FaInstagram></Link>
                 </div>
                 <div className='follow relative'>
-                <h4 className="lg:[writing-mode:vertical-rl] lg:rotate-180 bg-gray-600 p-1 rounded font-bold text-xl py-5 text-white uppercase">follow Me</h4>
+                <h4 className="lg:[writing-mode:vertical-rl] lg:rotate-180 bg-gray-600 p-1 rounded-tl-lg rounded-br-lg font-bold text-xl py-5 text-white uppercase">follow Me</h4>
                 </div>
             </div>
             <div className='text-center mt-32 lg:mt-0 lg:text-left'>
             <p className='text-[#00cf5d] text-xl lg:text-2xl'>Hello! I am</p>
             <h1 className='text-5xl lg:text-8xl text-white font-semibold'>Oli Ullah</h1>
-            <h3 className='mt-4 font-bold text-3xl text-[#00cf5d]'>Font-end Web Developer</h3>
+            <h3 className='mt-4 font-bold text-3xl text-[#00cf5d]'>MEAN Stack web Developer</h3>
             <div className='mt-7 flex justify-center lg:justify-start gap-5'>
             <a href="./oliullah resume.pdf" download className='secondary-btn-sm lg:secondary-btn'>Get Resume</a>
             <a href='#about' className='primary-btn'>About Me</a>
@@ -32,7 +32,7 @@ const Banner = () => {
             <div className='lg:hidden block mt-10'>
                 <div className='flex items-center justify-center'>
                 <p className='border-t-2 border-[#00cf5d] w-[80%]'></p>
-                <h4 className="bg-gray-600 w-full rounded font-semibold text-lg px-3 py-2 text-white text-center uppercase">follow Me</h4>
+                <h4 className="bg-gray-600 w-full rounded-tl-lg rounded-br-lg font-semibold text-lg px-3 py-2 text-white text-center uppercase">follow Me</h4>
                 <p className='border-t-2 border-[#00cf5d] w-[80%]'></p>
                 </div>
 

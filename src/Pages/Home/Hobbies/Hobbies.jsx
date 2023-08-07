@@ -5,7 +5,7 @@ import drawing from '../../../assets/images/hobbies/drawing.png'
 import swimming from '../../../assets/images/hobbies/swimming.png'
 import traveling from '../../../assets/images/hobbies/traveling.png'
 import Title from '../Title/Title';
-
+import LazyLoad from 'react-lazy-load';
 
 const Hobbies = () => {
     return (
@@ -14,25 +14,36 @@ const Hobbies = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 h-[75%]'>
                 <div className='bg-[#1d293a] flex items-center justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
                     <div>
-                    <img className='w-28 mb-3' src={coding} alt="" />
+                        <LazyLoad>
+                        <img className='w-28 mb-3' src={coding} alt="" />
+                        </LazyLoad>
+                    
                     <p className='text-white text-center lg:text-left font-bold text-2xl'>Coding</p>
                     </div>
                 </div>
                 <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
                     <div>
-                    <img className='w-28 mb-3' src={drawing} alt="" />
+                        <LazyLoad>
+                        <img className='w-28 mb-3' src={drawing} alt="" />
+                        </LazyLoad>
+                    
                     <p className='text-white text-center lg:text-left  font-bold text-2xl'>Drawing</p>
                     </div>
                 </div>
                 <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
                     <div>
-                    <img className='w-28 mb-3' src={swimming} alt="" />
+                        <LazyLoad>
+                        <img className='w-28 mb-3' src={swimming} alt="" />
+                        </LazyLoad>
                     <p className='text-white text-center lg:text-left  font-bold text-2xl '>Swimming</p>
                     </div>
                 </div>
                 <div className='bg-[#1d293a] flex items-center  justify-center lg:justify-start lg:py-10 lg:pl-5 lg:pr-32  py-7 rounded-lg'>
                     <div>
-                    <img className='w-28 mb-3' src={traveling} alt="" />
+                        <LazyLoad>
+                        <img className='w-28 mb-3' src={traveling} alt="" />
+                        </LazyLoad>
+                   
                     <p className='text-white text-center lg:text-left  font-bold text-2xl '>Traveling</p>
                     </div>
                 </div>
