@@ -51,7 +51,7 @@ const Hobbies = () => {
 
             <div className='hidden lg:block'>
             <p className='font-bold  my-2 ml-1 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>____</p>
-                <h4 className="[writing-mode:vertical-rl] bg-gray-600 p-1 rounded font-bold text-xl py-5 text-white uppercase">LOVE TO DO</h4>
+                <h4 className="[writing-mode:vertical-rl] bg-gray-600 p-1 rounded-tl-lg rounded-br-lg font-bold text-xl py-5 text-white uppercase">LOVE TO DO</h4>
                 <p className='font-bold mt-3 ml-1 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>____</p>
             </div>
 
