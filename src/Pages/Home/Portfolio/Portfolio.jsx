@@ -45,9 +45,9 @@ const Portfolio = () => {
                 <div className='portfolio-projects project-2 rounded-t-lg'>
                 </div>
                 </LazyLoad>
-                <div className="p-5 space-y-2">
-                    <h2 className="font-bold text-2xl text-white">Toys House</h2>
-                    <p className='text-white'>Toys House is a dynamic full-stack E-commerce website.The website offers a user-friendly interface for customers to create account, browse, upload, search, see toy details etc.</p>
+                <div className="p-5 space-y-4">
+                    <h2 className="font-bold text-2xl text-white">Kidol</h2>
+                    <p className='text-white'>kidol is a dynamic full-stack E-commerce website.The website offers a user-friendly interface for customers to create account, browse, upload, search, see toy details etc.</p>
                     <div className='text-gray-300 flex gap-2'>
                         <p>React</p>
                         <p>Tailwind</p>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                     <div className='text-white gap-2 my-3 flex justify-between'>
                         <a className='sm-btn flex gap-2 items-center' href="https://github.com/OliUllah1/toy-marketplace">Client <FaGithub></FaGithub> </a>
                         <a className='sm-btn flex gap-2 items-center' href="https://github.com/OliUllah1/toy-marketplace-server">server <FaGithub></FaGithub></a>
-                        <a className='sm-btn flex gap-2 items-center' href="https://toy-market-5e8cb.web.app/">live link <FaLink></FaLink> </a>
+                        <a className='sm-btn flex gap-2 items-center' href="https://kidol.netlify.app/">live link <FaLink></FaLink> </a>
                     </div>
                 </div>
             </div>
